@@ -3,8 +3,8 @@
 // To run JS we should install node js (or any others).
 
 // Print in Console
-console.log("Ayush");
-console.table(["Ayush","Thor","Another","Way to Print"]);
+// console.log("Ayush");
+// console.table(["Ayush","Thor","Another","Way to Print"]);
 
 // Difference between 
 
@@ -39,12 +39,12 @@ console.table(["Ayush","Thor","Another","Way to Print"]);
 // console.log(typeof null);
 
 // Conversion in JS (Type casting);
- let num = "10abc";
- console.log(typeof num);
+//  let num = "10abc";
+//  console.log(typeof num);
 //  Output - String
 //  to convert to int 
- let int = Number(num);
- console.log(typeof int);
+//  let int = Number(num);
+//  console.log(typeof int);
  // Output - number
 //  console.log(int);
 //  but value is NaN 
@@ -70,3 +70,63 @@ console.table(["Ayush","Thor","Another","Way to Print"]);
 // Stack(Primitive) eg: number,null ; Heap(Non Primitive) eg:Array,Function ;
 
 // In stack copy is given while in heap original value(like pointer) is given
+
+// String
+
+// const a ="Ayush"
+// const b = new String("Ayush")
+
+// use modern syntax 
+// let a ="Good"
+// console.log(`Ayush is a ${a} boy`);
+
+// Random No 
+// console.log(Math.random());
+// Returns a random no between 0 and 1
+ 
+// random no between custom 2 nos
+// let Max = 10
+// let Min = 1
+// console.log((Math.floor(Math.random()*(Max-Min+1))+Min));
+
+// Dates
+
+// let date = new Date()
+// console.log(date); 2024-06-20T16:07:21.870Z
+// it is in non readable format use the following fns
+// console.log(date.toString()); Thu Jun 20 2024 21:37:21 GMT+0530 (India Standard Time)
+// console.log(date.toDateString()); Thu Jun 20 2024
+// console.log(date.toTimeString()); 21:37:21 GMT+0530 (India Standard Time)
+// console.log(date.toLocaleTimeString()); 9:37:21 pm
+// console.log(date.toLocaleDateString()); 20/6/2024
+
+// create custom dates
+// let mydate = new Date("2006-03-08")
+// console.log(mydate.toLocaleDateString());
+
+// Array operations 
+let arr = [1,2,3,4,5]
+// console.log(arr); [ 1, 2, 3, 4, 5 ]
+
+// Splice and Slice 
+// let b = arr.slice(1,3);  // doesnt includes last no as well as not change array
+// console.log(b); [ 2, 3 ]
+// console.log(arr); [ 1, 2, 3, 4, 5 ]
+
+// let c = arr.splice(1,3) // doesnt includes last no as well as not change array
+// console.log(c); [ 2, 3, 4 ]
+// console.log(arr); [ 1, 5 ]
+
+// Objects
+
+// let a = {}
+// object is declared 
+
+// eg 
+// let b={
+//     name : "Ayush",
+//     age : 10,
+// }
+// console.log(b);
+// console.log(b.age);
+// console.log(b["name"]);
