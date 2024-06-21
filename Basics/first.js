@@ -136,6 +136,8 @@
 //     console.log("Ayush");
 // }
 
+// ................................Basics completed........................................
+
 // let a = function(){
 //     console.log("Hi");
 // }
@@ -190,9 +192,9 @@
 
 // will get index as well as array 
 // we can use also filter operator it can return values
-let arr = ["Ayush","Thor","Hulk"]
-let b = arr.filter((val)=>{
-    console.log(val);
-    return val;
-})
-console.log(b);
+// let arr = ["Ayush","Thor","Hulk"]
+// let b = arr.filter((val)=>{
+//     console.log(val);
+//     return val;
+// })
+// console.log(b);
