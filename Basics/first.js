@@ -105,7 +105,7 @@
 // console.log(mydate.toLocaleDateString());
 
 // Array operations 
-let arr = [1,2,3,4,5]
+// let arr = [1,2,3,4,5]
 // console.log(arr); [ 1, 2, 3, 4, 5 ]
 
 // Splice and Slice 
@@ -130,3 +130,69 @@ let arr = [1,2,3,4,5]
 // console.log(b);
 // console.log(b.age);
 // console.log(b["name"]);
+
+// Functions
+// function Ayush(params) {
+//     console.log("Ayush");
+// }
+
+// let a = function(){
+//     console.log("Hi");
+// }
+// a()
+
+// Arrow function 
+// let c = () => {
+//   console.log("Ayush");
+// }
+// c()
+
+// in single line 
+// let n = () => {}
+
+
+// Immedietly invoked function 
+
+// (function c(){
+//     console.log(`function started`);
+// })();
+
+// ((user)=>{
+//     console.log(`Hello ${user}`);
+// })("Ayush");
+
+// loops 
+// use for in for obects(it returns keys) and arrays(for arrays it returns index)
+// let arr = ["Ayush","Thor","Hulk"]
+// for (const key in arr) {
+//     console.log(arr[key]);
+// }
+// let obj ={
+//     name : "Ayush",
+//     age : 18,
+//     salary:"infinity"
+// }
+// for (const key in obj) {
+//     console.log(obj[key]);
+// }
+
+// for of returns values in array
+// let arr = ["Ayush","Thor","Hulk"]
+// for (const key of arr) {
+//     console.log(key); No need to write arr[keys]
+// }
+
+// for each
+
+// let arr = ["Ayush","Thor","Hulk"]
+// arr.forEach((val)=>{console.log(val);})
+// arr.forEach((val,index,arr)=>{console.log(val,index,arr);})
+
+// will get index as well as array 
+// we can use also filter operator it can return values
+let arr = ["Ayush","Thor","Hulk"]
+let b = arr.filter((val)=>{
+    console.log(val);
+    return val;
+})
+console.log(b);
